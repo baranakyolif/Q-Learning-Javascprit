@@ -1,5 +1,12 @@
+
+
 # Q-Learning-Javascprit
 This HTML code generates a web page showing a simple artificial intelligence agent (Lemy) trying to traverse a maze using a Q-Learning algorithm. 
+
+In its first test, the code learnt and completed the matrix below (used for the maze representation) in 545 steps.
+
+![mat](https://github.com/user-attachments/assets/9d0f2d65-62cf-4650-81c7-3fed79ce493c)
+
 
 This code aims to give students a comprehensive understanding of artificial intelligence and machine learning using the basic Q-Learning algorithm. The tool provides users with an environment that simulates the learning process in a maze. Users can experience how the Q-Learning algorithm works and how to optimise it.
 :
