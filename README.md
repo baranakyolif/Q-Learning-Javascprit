@@ -21,6 +21,8 @@ Technological Requirements: The tool requires certain technological infrastructu
 
 Important Note: This tool is for educational purposes only and any damage or liability arising from its use is not accepted. Users should use this tool at their own risk and responsibility. This document is provided for educational purposes only and no responsibility is accepted for its use. In case of any technical problems or support needs, it is recommended to contact the relevant technical support team.
 
+Video: https://www.youtube.com/watch?v=DROpXmoNjKM 
+
 HTML and CSS Structure:
 
 The page has a structure that includes a menu bar, control buttons and a maze play area.
