@@ -1,4 +1,6 @@
-## Attention! This system only saves penalty points as training data. I will upload the codes related to reward points soon. 
+## Attention! This system only saves penalty points as training data. I will upload the codes related to reward points soon.   
+### I prepared these codes for a few students who are interested in data science to explain the working logic of the qlearning algorithm.  
+### Since it is an introductory code, the purpose here is to give the logic of the model rather than training the model. Although the codes are a good skeleton for daily life applications, they should be customised.
 
 <!DOCTYPE html>
 <html lang="en">
