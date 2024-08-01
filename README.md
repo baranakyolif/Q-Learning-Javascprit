@@ -65,3 +65,31 @@ updateQ(state, action, reward, nextState): Updates the Q-values.
 getBestAction(state): Selects the action with the highest Q-value.
 chooseAction(state): Selects the action using the Epsilon-greedy strategy.
 The game moves the agent through the maze and the agent gains experience and learns by navigating the maze.
+
+
+---------------------------------------------------------------------------------------
+# MODEL TEST
+
+### Loading the CSV File and Updating the Q-Table  
+
+The uploadCsv function updates the Q-table by loading Q-values from the selected CSV file. This update is only valid when isTesting is true. In other words, when the stop button is clicked, the game starts testing, and the loaded Q-values are used during this test process.  
+
+Action Selection
+
+The chooseAction function selects actions using an epsilon-greedy policy. This policy allows for the chance of choosing either a random action or the action with the highest Q-value. If a CSV file has been loaded, the chooseAction function operates according to the loaded Q-values.  
+
+Game and Test Modes  
+
+Starting: When the start button is clicked, the game runs the update function at specific intervals and determines the agent's movements based on Q-values.  
+Stopping and Testing: Clicking the stop button sets the isTesting flag to true and calls the runTest function. In test mode, the getBestAction function selects actions solely based on the loaded Q-values.  
+  
+## What You Need to Do  
+  
+Loading the CSV File and Using the Q-Table:  
+After running the uploadCsv function, you should start the game by clicking the start button. Ensure that the agent's movements are based on the loaded Q-values. Test this section by verifying the content and format of your CSV file.  
+
+Starting and Test Scenarios:  
+When switching to test mode by clicking the stop button, use the runTest function to ensure the agent moves according to the loaded Q-values. Verify that this process is functioning correctly and perform necessary tests.  
+  
+User Interface and File Upload:  
+Check whether CSV files are being loaded correctly and whether Q-values are being updated appropriately. Also, ensure that the format of the CSV file (header row and data rows) is correct.
