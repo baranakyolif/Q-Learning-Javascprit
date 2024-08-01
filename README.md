@@ -33,8 +33,9 @@ Q-Learning Algorithm with JavaScript:
 
 A maze and an agent (Lemy) are drawn on the canvas element.
 
+------------------------------------------------------------------------------------------------------
 
-# Loading Old Values:
+# Loading Old Values: (Page2)
 
 In this step, you can reload the data that you have previously trained and downloaded to the agent and enable it to make decisions in the light of this information.  
 ### Impacts
