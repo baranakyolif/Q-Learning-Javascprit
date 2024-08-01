@@ -32,6 +32,32 @@ It also contains buttons for controlling the game (start, stop, continue) and ti
 Q-Learning Algorithm with JavaScript:
 
 A maze and an agent (Lemy) are drawn on the canvas element.
+
+
+# Loading Old Values:
+
+In this step, you can reload the data that you have previously trained and downloaded to the agent and enable it to make decisions in the light of this information.  
+### Impacts
+Acceleration of the Learning Process:
+
+### Existing Q-Values:  
+When previously trained Q-values are loaded, they provide access to information that your agent has already learnt. This can speed up the learning process because the agent will do new learning based on existing Q-values.
+### Starting Knowledge:  
+The training process can progress much faster than starting from scratch. With these Q-values, the agent continues to learn using existing knowledge and can make more informative actions instead of random actions at the beginning.
+### Accuracy of Decisions:  
+
+Improved Performance: If the Q-values in the CSV file are accurate and informative, the agent can make better decisions. This allows it to make more accurate and effective movements based on the knowledge acquired in the previous training.  
+### Effect of Old Knowledge:  
+However, old Q-values may in some cases not be valid in the current environment. If there have been significant changes in the environment (e.g. new actions or rewards), the old values may adversely affect the agent's decisions.
+### Impact of Training:  
+
+Improved Learning: Installed Q-values can speed up the learning process and allow you to achieve good results more quickly. However, if there are new environmental factors or changes, the agent must adapt to these factors.
+### Achieving Balance:  
+When learning using old Q-values, it is important to also update Q-values in new situations. This ensures that both old information and new data are taken into account.  
+
+### Summary  
+If the old Q-values are valid and accurate, the new training process can often be faster and more effective because the agent can use the previously learnt information.
+However, if the old data are incompatible with current situations, then the agent may have difficulty adapting to new environmental changes.
 The Q-Learning algorithm is applied to update the agent's Q-values and select the best actions:
 getQ(state, action): Returns the Q-value according to the given state and action.
 updateQ(state, action, reward, nextState): Updates the Q-values.
