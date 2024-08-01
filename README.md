@@ -68,7 +68,7 @@ The game moves the agent through the maze and the agent gains experience and lea
 
 
 ---------------------------------------------------------------------------------------
-# MODEL TEST
+# MODEL TEST (Page 3)
 
 ### Loading the CSV File and Updating the Q-Table  
 
